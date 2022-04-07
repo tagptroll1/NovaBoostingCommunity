@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NovaCommunityApp", "NovaCommunityApp\NovaCommunityApp.csproj", "{A05F68CA-5327-44BF-B680-7797A0D94B6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MythicPlus", "MythicPlus", "{04889954-A871-4F06-8CF7-2BBF01521F29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MythicPlus", "MythicPlus\MythicPlus\MythicPlus.csproj", "{80A00055-E210-4942-B9C6-8B279F3DFA03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MythicPlus.Contract", "MythicPlus\MythicPlus.Contract\MythicPlus.Contract.csproj", "{95BE3248-1D6F-45BC-8745-E9C3BF27283F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A05F68CA-5327-44BF-B680-7797A0D94B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A05F68CA-5327-44BF-B680-7797A0D94B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A05F68CA-5327-44BF-B680-7797A0D94B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A05F68CA-5327-44BF-B680-7797A0D94B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A00055-E210-4942-B9C6-8B279F3DFA03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A00055-E210-4942-B9C6-8B279F3DFA03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A00055-E210-4942-B9C6-8B279F3DFA03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A00055-E210-4942-B9C6-8B279F3DFA03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95BE3248-1D6F-45BC-8745-E9C3BF27283F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95BE3248-1D6F-45BC-8745-E9C3BF27283F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95BE3248-1D6F-45BC-8745-E9C3BF27283F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95BE3248-1D6F-45BC-8745-E9C3BF27283F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80A00055-E210-4942-B9C6-8B279F3DFA03} = {04889954-A871-4F06-8CF7-2BBF01521F29}
+		{95BE3248-1D6F-45BC-8745-E9C3BF27283F} = {04889954-A871-4F06-8CF7-2BBF01521F29}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07046159-4B47-44A3-969E-63C6D9611026}
+	EndGlobalSection
+EndGlobal

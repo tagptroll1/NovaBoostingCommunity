@@ -1,0 +1,51 @@
+{
+  "name": "novadesktopapp",
+  "description": "A desktop app for nova boosting community",
+  "author": {
+    "name": "Thomas Petersson",
+    "email": "thomas@galehuset.org",
+    "url": "https://github.com/tagptroll1"
+  },
+  "version": "1.0.0",
+  "private": true,
+  "main": "public/main.js",
+  "scripts": {
+    "compile-main": "tsc -p electron",
+    "build-electron": "tsc -p electron",
+    "build-svelte": "rollup -c",
+    "build": "npm run build-electron && npm run build-svelte",
+    "dev": "rollup -c -w",
+    "start": "tsc -p electron && electron public/main.js",
+    "start-svelte": "sirv public --no-clear",
+    "validate": "svelte-check",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "build": {
+    "productName": "Nova Boosting"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "@rollup/plugin-typescript": "^8.0.0",
+    "@tsconfig/svelte": "^1.0.0",
+    "dotenv": "^8.2.0",
+    "electron": "^12.0.5",
+    "electron-builder": "^22.10.5",
+    "electron-reload": "^1.5.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0",
+    "svelte-check": "^1.0.0",
+    "svelte-preprocess": "^4.7.2",
+    "tslib": "^2.0.0",
+    "typescript": "^4.0.0"
+  },
+  "dependencies": {
+    "sass": "^1.32.11"
+  }
+}
